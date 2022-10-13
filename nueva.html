@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Static and Relative Positioning</title>
+   <style>
+   #footer {
+   clear: left;
+   border-top: 1px solid #369;
+   #wrapper {
+   margin: 0 14em 0 12em;
+   padding: 0 1em;
+}
+#sidebar {
+   float: left;
+   width: 13em;
+   padding: 0 0.5em;
+   background-color:  #ff6;
+   margin-left:  -14em;
+}
+#main {
+   float: left;
+   width: 100%;
+   background-color: lime;
+}
+}
+   #main {
+   float: left;
+}
+#sidebar {
+   float: left;
+   width: 13em;
+   padding: 0 0.5em;
+   background-color: #ff6;
+}
+#nav {
+   float: left;
+   width: 11em;
+   padding: 0 0.5em;
+   background-color: #ddd;
+}
+   
+   #header {
+    background-color: #369;
+    color: #fff;
+ }
+ #sidebar {
+    background-color: #ff6;
+ }
+ #nav {
+    background-color: #ddd;
+ }
+ #footer {   
+    border-top: 1px solid #369;
+ }
+ body{
+   margin: 0 auto;
+   min-width: 40em;
+   max-width: 56em;
+}
+#sidebar {
+   width: 13em;
+   padding: 0 0.5em;
+   background-color: #ff6;
+}
+#nav {
+   width: 11em;
+   padding: 0 0.5em;
+   background-color: #ddd;
+}
+</style>
+   <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+   <div id="header">Header</div>
+   <div id="wrapper">
+    <div id="main">Main content</div>
+    <div id="sidebar">Sidebar</div>
+    <div id="nav">Navigation</div>
+ </div>
+<div id="footer">Footer</div>
+   <div id="main">Main content</div>
+   <div id="sidebar">Sidebar</div>
+   <div id="nav">Navigation</div>
+   <div id="footer">Footer</div>
+</body>
+</html>
