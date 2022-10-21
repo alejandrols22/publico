@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border box</title>
+    <style>
+#cuerpo{
+
+background-color: grey;
+
+
+
+}
+#base{
+
+    background-color: white;
+border: 2px solid #000000;
+width: 750px;
+height: 350px;
+margin: 30px;
+padding: 40px;
+padding-top: 1px;
+}
+
+*{box-sizing:border-box;
+
+}
+
+span {
+            display:inline-block;
+            margin-top: 10px;
+
+
+        }
+.center{
+text-align: center;
+margin-top: 10px;
+
+
+}
+
+#cuadrado_1{
+    background-color: rgb(211, 211, 25);
+
+border: 2px solid #000000;
+width: 20px;
+height: 30px;
+margin-right: 4%;
+}
+
+#cuadrado_2{
+    background-color: rosybrown;
+
+border: 2px solid #000000;
+width: 120px;
+height: 70px;
+margin-right: 4%;
+}
+
+#cuadrado_3{
+    background-color: rgb(110, 220, 134);
+
+border: 2px solid #000000;
+width: 160px;
+height: 100px;
+}
+.volver_indice{
+            color: #0b0b0c;
+            width: 10%;
+            height: 10%;
+            background: #0f0c29;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #020242, #9998aa, #0f0c29);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #6b518ba7, #c4c4d269, #655fac);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+    </style>
+</head>
+<body id="cuerpo">
+    <p class="volver_indice"><a href="Cajas_Repositorios_Setup.html">Pulsa para volver al indice de Cajas y Repositorios</a></p>
+    <div id="base">
+        <p class="center" style="font-size:large; margin-top: 4%;"><strong>Alejandro López Sepúlveda</strong></p>
+        <p class="center"><strong>alejandrols22</strong></p>
+        <span id="cuadrado_1"></span>
+        <span id="cuadrado_2"></span>
+        <span id="cuadrado_3"></span>
+    </div>
+</body>
+</html>
