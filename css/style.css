@@ -241,11 +241,21 @@ column-gap: 1rem ;
 /* Contaco*/
 .formulario{
  background-color: var(--gris);
-width: min(60rem, 100%); /**utilizar el valor mas pequeño)*/
+width: min(80%, 100%); /**utilizar el valor mas pequeño)*/
 max-width: 100%;
 margin: auto;
-padding: 2rem;
+padding: 2%;
 border-radius: 1rem;
+}
+@media (min-width: 768px) {
+  .formulario{
+    background-color: var(--gris);
+   width: min(60%, 100%); /**utilizar el valor mas pequeño)*/
+   max-width: 100%;
+   margin: auto;
+   padding: 2%;
+   border-radius: 1rem;
+   }    
 }
 
 .formulario fieldset{
@@ -294,7 +304,7 @@ border-radius: 1rem;
 .input-text{
   width: 100%;
   border:none;
-  padding: 1.5rem;
+  padding: 1.5%;
   border-radius:.5rem ;
 }
 
@@ -335,7 +345,7 @@ border-radius: 1rem;
 @media screen and (orientation:landscape) {
     #FotoSobreMi {
         max-width: 1920px;
-        max-height: 1280px;
+        max-height: 1200px;
     }
 }
 
