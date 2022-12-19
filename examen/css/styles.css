@@ -1,0 +1,139 @@
+/* 
+Examen practico Postal Navideña
+ALejandro Lopez Sepulveda
+19 de Diciembre 2022
+1DAW
+ */
+
+/*ESTILOS EN ETIQUETAS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* Imagen postal*/
+img {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: 60% 10%;
+    /*Efecto de suavizado*/
+    transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+  
+}
+/*Efecto de 360º para imagen de santa*/
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div {
+    position: absolute;
+    top: 0%; left: 0%; width: 100%; height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 3s ease;  /* Efecto de suavizado */
+    -webkit-transition: all 3s ease; /* Efecto de suavizado */
+    background-color: rgba(203, 214, 214, 0.678);
+    
+}
+/* 1rem=10px*/
+p {
+    text-align: center;
+    transition: all 1.5s ease; /* Efecto de suavizado */
+    -webkit-transition: all 1.5s ease; /* Efecto de suavizado */
+    background-color: transparent;
+    color: red;
+    text-shadow: 1px 1px goldenrod; /*sombra*/
+    font-size: calc(2.5rem);
+    font-weight: bold;
+    margin-top: 3%;
+}
+/*Media querry para adaptar el tamaño de la letra a la resolucion*/
+@media (min-width: 468px) {
+    p {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    p {
+        font-size: 2.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    p {
+        font-size: 3rem;
+    }
+}
+/*Cambio de color en la primera etiqueta p*/
+p:nth-child(1) {
+    color: rgb(128, 0, 122);
+}
+/*Cambio de estilo y color en la quinta etiqueta p*/
+p:nth-child(5) {
+    color: green;
+    font-style: italic;
+}
+/*Efecto de transicion con transparencia*/
+div:active,
+div:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+@media all and (orientation: landscape) {
+/*Si el viewport esta en horizontal, el width del div se adapta al 70%*/
+    img,
+    div {
+        width: 70vh;
+        margin-left: calc(50vw - 35vh);
+    }
+}
+
+/*HEADER*/
+/*Imagen Santa*/
+.santa {
+    position: absolute;
+    top: 0; left: 0; 
+    width: 20%; max-width: 20%; height: auto;
+    object-fit: cover;
+    margin: 5%;
+}
+/*Mensaje secreto que aparece si le pulsas*/
+.caja {
+    background-image: linear-gradient(270deg, red, yellow, blue);
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    max-width: 30%; width: 30%; height: 20%;
+    margin: auto; margin-top: 10%; margin-top: 10%;
+    border-radius: 15%;
+    text-overflow: clip;  text-shadow: 1px 1px goldenrod;
+    font-size: calc(1.8rem); font-weight: bold;
+    text-align: center;
+    
+}
+/*MAIN
+parrafo de la postal*/
+.parrafo {
+    margin-top: 25%;
+}
+
+/*FOOTER*/
+div .especial {
+    margin-top: 25%;  margin-left: 10%; margin-right: 10%;
+    color: rgb(37, 37, 221);
+    text-shadow: 1px 1px rgb(66, 221, 27); text-decoration: underline;
+}
