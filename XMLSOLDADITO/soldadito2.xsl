@@ -13,12 +13,12 @@
 					<div>
 					<xsl:for-each select="verso">
 						<p>
-    					<xsl:value-of select="."/>
-    					</p>
+    						<xsl:value-of select="."/>
+    						</p>
       					</xsl:for-each>
       					</div>
-    			</xsl:for-each>	
-    		</body>
+    				</xsl:for-each>	
+    			</body>
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
