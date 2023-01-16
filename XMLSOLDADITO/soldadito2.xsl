@@ -15,8 +15,8 @@
 						<p>
     					<xsl:value-of select="."/>
     					</p>
-      				</xsl:for-each>
-      				<div>
+      					</xsl:for-each>
+      					</div>
     			</xsl:for-each>	
     		</body>
 		</html>
