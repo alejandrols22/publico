@@ -4,21 +4,46 @@
 		<html>
 			<head></head>
 			<body>
-				<h1>Informacion de la cancion</h1>
-				<h2>
-					<xsl:value-of select="cancion/titulo"/>
-				</h2>
+				<h2>CANCION</h2>
+				<h1>
+					Titulo> <xsl:value-of select="cancion/titulo"/>
+				</h1>
+				<br/>
 				<xsl:for-each select="cancion/letra/estrofa">
-					<xsl:sort select="orden"/>
-					<div>
-					<xsl:for-each select="verso">
-						<p>
-    						<xsl:value-of select="."/>
-    						</p>
-      					</xsl:for-each>
-      					</div>
-    				</xsl:for-each>	
+					<xsl:choose>
+							<xsl:when test="tipo='estribillo'">
+										<p>ESTRIBILLO:</p>
+										<div class="estribillo">
+											<xsl:for-each select="verso">
+													<p>
+    										<xsl:value-of select="."/>
+    												</p>
+      										</xsl:for-each>
+      									</div>
+      									
+							</xsl:when>
+							<xsl:otherwise>
+										<p>(estrofa normal)</p>
+										<div>
+							</xsl:otherwise>
+							
+							
+							
+							
+						</xsl:choose>
+						
+						<xsl:for-each select="verso">
+											<p>
+												<xsl:value-of slect="."/>
+											</p>
+							
+      						
+      
+    					</xsl:for-each>	
+    			<p>
+	    			(Autor: <xsl:value-of select="cancion/autor"/>)
+    			</p>
     			</body>
-		</html>
-	</xsl:template>
-</xsl:stylesheet>
+				</html>
+				</xsl:template>
+			</xsl:stylesheet>
