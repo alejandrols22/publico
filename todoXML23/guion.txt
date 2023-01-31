@@ -1,0 +1,12 @@
+Los ficheros aquí obtenidos se lograron siguendo
+los siguientes pasos:
+
+OK biblioteca1.xml y que esté bien formado
+OK generar el esquema .xsd
+OK relacionarlo y validarlo con ese esquema
+OK crear un .xsl(t) para generar un html
+OK asociar un .css   (insertarlo como código en el head del .xsl)
+OK visualizar con XAMPP (localhost) (iniciar xampp y tener
+ ubicados los ficheros de esta aplicación dentro de htdocs)
+
+OK La grabación está disponible
