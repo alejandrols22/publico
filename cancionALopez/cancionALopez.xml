@@ -3,9 +3,9 @@
 <cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancionALopez.xsd">
 	
 	<titulo>Somebody That I Used To Know</titulo>
-	<artista>Gotye y Kimbra</artista>
+	<autor>Gotye y Kimbra</autor>
 	<estrofa>
-		<tipo>normal</tipo>
+		<categoria>normal</categoria>
 		<verso>Now and then I think of when we were together</verso>
 		<verso>Like when you said you felt so happy you could die</verso>
 		<verso>Told myself that you were right for me</verso>
@@ -13,7 +13,7 @@
 		<verso>But that was love, and it's an ache I still remember</verso>
 	</estrofa>
 	<estrofa>
-		<tipo>normal</tipo>
+		<categoria>normal</categoria>
 		<verso>You can get addicted to a certain kind of sadness</verso>
 		<verso>Like resignation to the end, always the end</verso>
 		<verso>So when we found that we could not make sense</verso>
@@ -21,7 +21,7 @@
 		<verso>But I'll admit that I was glad it was over</verso>
 	</estrofa>
 	<estrofa>
-		<tipo>normal</tipo>
+		<categoria>normal</categoria>
 		<verso>But you didn't have to cut me off</verso>
 		<verso>Make out like it never happened and that we were nothing</verso>
 		<verso>And I don't even need your love</verso>
@@ -32,26 +32,26 @@
 		
 	</estrofa>
 	<estrofa>
-		<tipo>estribillo</tipo>
+		<categoria>estribillo</categoria>
 		<verso>Now you're just somebody that I used to know</verso>
 		<verso>Now you're just somebody that I used to know</verso>
 		<verso>Now you're just somebody that I used to know</verso>
 		
 	</estrofa>
 	<estrofa>
-		<tipo>normal</tipo>
+		<categoria>normal</categoria>
 		<verso>Now and then I think of all the times you screwed me over</verso>
 		<verso>But had me believing it was always something that I'd done</verso>
 	</estrofa>
 	<estrofa>
-		<tipo>normal</tipo>
+		<categoria>normal</categoria>
 		<verso>And I don't wanna live that way</verso>
 		<verso>Reading into every word you say</verso>
 		<verso>You said that you could let it go</verso>
 		<verso>And I wouldn't catch you hung up on somebody that you used to know</verso>
 	</estrofa>
 	<estrofa>
-		<tipo>normal</tipo>
+		<categoria>normal</categoria>
 		<verso>But you didn't have to cut me off</verso>
 		<verso>Make out like it never happened and that we were nothing (aah-ooh)</verso>
 		<verso>And I don't even need your love (ooh)</verso>
@@ -62,7 +62,7 @@
 		<verso>Now you're just somebody that I used to know</verso>
 	</estrofa>
 	<estrofa>
-		<tipo>estribillo</tipo>
+		<categoria>estribillo</categoria>
 		<verso>Somebody (I used to know)</verso>
 		<verso>Somebody (now you're just somebody that I used to know)</verso>
 		<verso>Somebody (I used to know)</verso>
