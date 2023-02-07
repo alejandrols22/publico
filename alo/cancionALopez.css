@@ -1,0 +1,71 @@
+header {
+    margin: 10px 30%;
+    font-style: italic;
+    text-align: center;
+    color: rgb(238, 231, 240);
+    
+}
+body{
+	background-image: url(cancion3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  	background-position: center center;
+    counter-reset: estrofa section;
+    width: 85%;
+    margin: 0 auto; 
+    background-color: grey;
+    font-family: Rockwell;
+    margin-bottom: 3%;
+}
+
+
+
+h1{
+    color:rgb(0, 145, 0) ;
+    text-align:center;  
+    font-size: 60px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2::before {
+        counter-increment: estrofa;
+        content:  " " counter(estrofa) ": ";
+
+}
+h3{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+p{
+	
+	background-color:yellow;
+    text-align: center;
+    color:blue;
+    font-size: 20px;
+}
+
+p::before {
+    counter-increment: section; 
+    content: "verso " counter(section) ": "; 
+    color: rgb(0, 145, 0);
+}
+
+span{
+   color: blue;
+   display: block;
+   background-color: yellow;
+   text-align: center;
+   height: 3%;
+   width: 60%; 
+   margin: 0 auto;
+}
+
+
