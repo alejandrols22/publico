@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cafeALopez.xsl"?>
+<cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cafeALopez.xsd">
+	
+	<titulo>Cafe Caliente</titulo>
+	<precio>Todas las bebidas valen 6 euros</precio>
+	<ingrediente>
+		<linea>1 café espresso</linea>
+		<linea>2/3 taza de leche</linea>
+		<linea>2 cucharaditas de azúcar</linea>
+		<linea>Canela en polvo o en rama</linea>
+		
+	</ingrediente>
+
+	<ingrediente>
+		<linea>2 shot de espresso o espresso doble</linea>
+		<linea>1/2 vaso de leche caliente</linea>
+		<linea>1 barrita de KitKat</linea>
+		<linea>1 poco de cacao en polvo o virutas de chocolate</linea>
+		
+	</ingrediente>
+
+	<ingrediente>
+		<linea>1 café espresso o 1 café soluble</linea>
+		<linea>60 gr de chocolate para derretir</linea>
+		<linea>1/2 taza de leche caliente</linea>
+		<linea>Un poco de canela o cacao en polvo</linea>
+		
+	</ingrediente>
+	
+</cafe>
