@@ -14,7 +14,7 @@
 									</h3>
 					
 											<xsl:for-each select="cafe/ingrediente">
-												<h2>Linea</h2>
+												<h2>Receta</h2>
 												<xsl:for-each select="linea">
 													<span>
 														<p>

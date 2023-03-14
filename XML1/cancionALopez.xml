@@ -3,7 +3,29 @@
 <cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancionALopez.xsd">
 	
 	<titulo>Latte de Canela</titulo>
-	<precio>6$</precio>
+	<precio>6</precio>
+	<ingrediente>
+		<categoria>caliente</categoria>
+		<linea>1 café espresso</linea>
+		<linea>2/3 taza de leche</linea>
+		<linea>2 cucharaditas de azúcar</linea>
+		<linea>Canela en polvo o en rama</linea>
+		
+	</ingrediente>
+
+	<titulo>Latte de Canela</titulo>
+	<precio>6</precio>
+	<ingrediente>
+		<categoria>caliente</categoria>
+		<linea>1 café espresso</linea>
+		<linea>2/3 taza de leche</linea>
+		<linea>2 cucharaditas de azúcar</linea>
+		<linea>Canela en polvo o en rama</linea>
+		
+	</ingrediente>
+
+	<titulo>Latte de Canela</titulo>
+	<precio>6</precio>
 	<ingrediente>
 		<categoria>caliente</categoria>
 		<linea>1 café espresso</linea>
