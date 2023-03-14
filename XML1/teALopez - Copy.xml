@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cafeALopez.xsl"?>
+<cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cafeALopez.xsd">
+	
+	<titulo>Te Frio </titulo>
+	<precio>Todas las bebidas valen 4 euros</precio>
+	<ingrediente></ingrediente>
+		<linea>1 litro de agua</linea>
+		<linea>4 cucharadas o 4 bolsitas de té blanco</linea>
+		<linea>200 ml de zumo de pomelo</linea>
+		<linea>2 cucharadas de azúcar</linea>
+		
+		
+	</ingrediente>
+
+	<ingrediente>
+		<linea>1 litro de agua</linea>
+		<linea>4 cucharadas o 4 bolsitas de rooibos</linea>
+		<linea>200 ml de zumo de piña o de zumo de melocotón</linea>
+		<linea>1 lima para derocar</linea>
+		
+
+	</ingrediente>
+
+	<ingrediente>
+		<linea>200 ml de agua</linea>
+		<linea>2 cucharadas o 2 bolsitas de té verde</linea>
+		<linea>200 ml de zumo de naranja</linea>
+		<linea>El zumo de medio limón</linea>
+		<linea>4 cucharadas de miel</linea>
+		
+	</ingrediente>
+	
+</cafe>
