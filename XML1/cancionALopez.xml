@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="cancionALopez.xsl"?>
 <cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancionALopez.xsd">
 	
-	<titulo>Bebidas Calientes</titulo>
+	<titulo>Latte de Canela</titulo>
 	<precio>6 euros</precio>
 	<ingrediente>
 		<linea>1 café espresso</linea>
