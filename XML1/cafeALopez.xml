@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="cafeALopez.xsl"?>
 <cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cafeALopez.xsd">
 	
-	<titulo>Cafe Caliente</titulo>
+	<titulo>Cafe </titulo>
 	<precio>Todas las bebidas valen 6 euros</precio>
 	<ingrediente>
 		<linea>1 café espresso</linea>
