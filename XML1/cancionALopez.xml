@@ -12,19 +12,5 @@
 		
 	</ingrediente>
 
-	<titulo>Cappuccino</titulo>
-	<precio>5 euros</precio>
-	<ingrediente>
-		<linea>1 café espresso</linea>
-		<linea>50ml de leche</linea>
-		<linea>Un poco de canela o cacao en polvor</linea>
-	</ingrediente>
-
-	<titulo>Espresso de Caramelo</titulo>
-	<precio>7 euros</precio>
-	<ingrediente>
-		<linea>2 shot de espresso o espresso doble</linea>
-		<linea>1 cucharaditas de sirope de caramelo</linea>
-		<linea>30 ml de crema batida (opcional)</linea>
-	</ingrediente>
+	
 </cafe>
