@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/XML1/cafeALopez.xsl"?>
-<cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/XML1/cafeALopez.xsd">
+<?xml-stylesheet type="text/xsl" href="cafeALopez.xsl"?>
+<cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML1/cafeALopez.xsd">
 	
 	<titulo>Cafe Frio </titulo>
 	<precio>Todas las bebidas valen 9 euros</precio>
