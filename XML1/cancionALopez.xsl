@@ -7,15 +7,15 @@
 				</head>
 						<body>
 									<h1>
-										<xsl:value-of select="cancion/titulo"></xsl:value-of>
+										<xsl:value-of select="cafe/titulo"></xsl:value-of>
 									</h1>
 									<h3>
-										<xsl:value-of select="cancion/autor"></xsl:value-of>
+										<xsl:value-of select="canfe/precio"></xsl:value-of>
 									</h3>
 					
-											<xsl:for-each select="cancion/estrofa">
-												<h2>Estrofa</h2>
-												<xsl:for-each select="verso">
+											<xsl:for-each select="cafe/ingrediente">
+												<h2>Linea</h2>
+												<xsl:for-each select="linea">
 													<span>
 														<p>
 															<xsl:value-of select="."/>
