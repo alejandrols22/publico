@@ -10,7 +10,7 @@
 										<xsl:value-of select="cafe/titulo"></xsl:value-of>
 									</h1>
 									<h3>
-										<xsl:value-of select="canfe/precio"></xsl:value-of>
+										<xsl:value-of select="cafe/precio"></xsl:value-of>
 									</h3>
 					
 											<xsl:for-each select="cafe/ingrediente">
