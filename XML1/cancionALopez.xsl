@@ -13,9 +13,7 @@
                     <h3>
                         <xsl:value-of select="../precio"/>
                     </h3>
-                    <h2>
-                        <xsl:value-of select="categoria"/>
-                    </h2>
+                   
                     <h2>Receta</h2>
                     <xsl:for-each select="linea">
                         <span>
