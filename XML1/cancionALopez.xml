@@ -2,10 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="cancionALopez.xsl"?>
 <cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancionALopez.xsd">
 	
-	<titulo>Latte de Canela</titulo>
+	<titulo>Bebidas Calientes</titulo>
 	<precio>6 euros</precio>
 	<ingrediente>
-		<categoria>caliente</categoria>
 		<linea>1 café espresso</linea>
 		<linea>2/3 taza de leche</linea>
 		<linea>2 cucharaditas de azúcar</linea>
@@ -13,25 +12,19 @@
 		
 	</ingrediente>
 
-	<titulo>Latte de Canela</titulo>
-	<precio>6 euros</precio>
+	<titulo>Cappuccino</titulo>
+	<precio>5 euros</precio>
 	<ingrediente>
-		<categoria>caliente</categoria>
 		<linea>1 café espresso</linea>
-		<linea>2/3 taza de leche</linea>
-		<linea>2 cucharaditas de azúcar</linea>
-		<linea>Canela en polvo o en rama</linea>
-		
+		<linea>50ml de leche</linea>
+		<linea>Un poco de canela o cacao en polvor</linea>
 	</ingrediente>
 
-	<titulo>Latte de Canela</titulo>
-	<precio>6 euros</precio>
+	<titulo>Espresso de Caramelo</titulo>
+	<precio>7 euros</precio>
 	<ingrediente>
-		<categoria>caliente</categoria>
-		<linea>1 café espresso</linea>
-		<linea>2/3 taza de leche</linea>
-		<linea>2 cucharaditas de azúcar</linea>
-		<linea>Canela en polvo o en rama</linea>
-		
+		<linea>2 shot de espresso o espresso doble</linea>
+		<linea>1 cucharaditas de sirope de caramelo</linea>
+		<linea>30 ml de crema batida (opcional)</linea>
 	</ingrediente>
 </cafe>
