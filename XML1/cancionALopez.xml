@@ -2,74 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="cancionALopez.xsl"?>
 <cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancionALopez.xsd">
 	
-	<titulo>Somebody That I Used To Know</titulo>
-	<autor>Gotye y Kimbra</autor>
-	<estrofa>
-		<categoria>normal</categoria>
-		<verso>Now and then I think of when we were together</verso>
-		<verso>Like when you said you felt so happy you could die</verso>
-		<verso>Told myself that you were right for me</verso>
-		<verso>But felt so lonely in your company</verso>
-		<verso>But that was love, and it's an ache I still remember</verso>
-	</estrofa>
-	<estrofa>
-		<categoria>normal</categoria>
-		<verso>You can get addicted to a certain kind of sadness</verso>
-		<verso>Like resignation to the end, always the end</verso>
-		<verso>So when we found that we could not make sense</verso>
-		<verso>Well, you said that we would still be friends</verso>
-		<verso>But I'll admit that I was glad it was over</verso>
-	</estrofa>
-	<estrofa>
-		<categoria>normal</categoria>
-		<verso>But you didn't have to cut me off</verso>
-		<verso>Make out like it never happened and that we were nothing</verso>
-		<verso>And I don't even need your love</verso>
-		<verso>But you treat me like a stranger, and that feels so rough</verso>
-		<verso>No, you didn't have to stoop so low</verso>
-		<verso>Have your friends collect your records and then change your number</verso>
-		<verso>I guess that I don't need that, though</verso>
+	<titulo>Latte de Canela</titulo>
+	<precio>6$</precio>
+	<ingrediente>
+		<categoria>caliente</categoria>
+		<linea>1 café espresso</linea>
+		<linea>2/3 taza de leche</linea>
+		<linea>2 cucharaditas de azúcar</linea>
+		<linea>Canela en polvo o en rama</linea>
 		
-	</estrofa>
-	<estrofa>
-		<categoria>estribillo</categoria>
-		<verso>Now you're just somebody that I used to know</verso>
-		<verso>Now you're just somebody that I used to know</verso>
-		<verso>Now you're just somebody that I used to know</verso>
-		
-	</estrofa>
-	<estrofa>
-		<categoria>normal</categoria>
-		<verso>Now and then I think of all the times you screwed me over</verso>
-		<verso>But had me believing it was always something that I'd done</verso>
-	</estrofa>
-	<estrofa>
-		<categoria>normal</categoria>
-		<verso>And I don't wanna live that way</verso>
-		<verso>Reading into every word you say</verso>
-		<verso>You said that you could let it go</verso>
-		<verso>And I wouldn't catch you hung up on somebody that you used to know</verso>
-	</estrofa>
-	<estrofa>
-		<categoria>normal</categoria>
-		<verso>But you didn't have to cut me off</verso>
-		<verso>Make out like it never happened and that we were nothing (aah-ooh)</verso>
-		<verso>And I don't even need your love (ooh)</verso>
-		<verso>But you treat me like a stranger, and that feels so rough (aah)</verso>
-		<verso>No, you didn't have to stoop so low (ooh)</verso>
-		<verso>Have your friends collect your records and then change your number (aah)</verso>
-		<verso>I guess that I don't need that, though</verso>
-		<verso>Now you're just somebody that I used to know</verso>
-	</estrofa>
-	<estrofa>
-		<categoria>estribillo</categoria>
-		<verso>Somebody (I used to know)</verso>
-		<verso>Somebody (now you're just somebody that I used to know)</verso>
-		<verso>Somebody (I used to know)</verso>
-		<verso>Somebody (now you're just somebody that I used to know)</verso>
-		<verso>I used to know</verso>
-		<verso>That I used to know</verso>
-		<verso>I used to know</verso>
-		<verso>Somebody</verso>
-	</estrofa>
-</cancion>
+	</ingrediente>
+	
