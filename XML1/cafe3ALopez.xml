@@ -2,32 +2,32 @@
 <?xml-stylesheet type="text/xsl" href="cafeALopez.xsl"?>
 <cafe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cafeALopez.xsd">
 	
-	<titulo>Te Frio </titulo>
-	<precio>Todas las bebidas valen 4 euros</precio>
-	<ingrediente></ingrediente>
-		<linea>1 litro de agua</linea>
-		<linea>4 cucharadas o 4 bolsitas de té blanco</linea>
-		<linea>200 ml de zumo de pomelo</linea>
-		<linea>2 cucharadas de azúcar</linea>
-		
+	<titulo>Cafe Frio </titulo>
+	<precio>Todas las bebidas valen 9 euros</precio>
+	<ingrediente>
+		<linea>1 café espresso o 1/2 vaso de café instantáneo/soluble</linea>
+		<linea>1 vaso de leche o bebida vegetal</linea>
+		<linea>2 cucharadas de sirope de chocolate</linea>
+		<linea>1 cucharada de azúcar</linea>
+		<linea>1 vaso de cubitos de hielo</linea>
 		
 	</ingrediente>
 
 	<ingrediente>
-		<linea>1 litro de agua</linea>
-		<linea>4 cucharadas o 4 bolsitas de rooibos</linea>
-		<linea>200 ml de zumo de piña o de zumo de melocotón</linea>
-		<linea>1 lima para derocar</linea>
-		
+		<linea>1 café espresso o 1/2 vaso de café instantáneo/soluble</linea>
+		<linea>100 ml de leche o bebida vegetal</linea>
+		<linea>1-2 cucharadas de azúcar</linea>
+		<linea>1 vaso de cubitos de hielo</linea>
+		<linea>Opcional: 1 cucharada de cacao en polvo</linea>
 
 	</ingrediente>
 
 	<ingrediente>
-		<linea>200 ml de agua</linea>
-		<linea>2 cucharadas o 2 bolsitas de té verde</linea>
-		<linea>200 ml de zumo de naranja</linea>
-		<linea>El zumo de medio limón</linea>
-		<linea>4 cucharadas de miel</linea>
+		<linea>1 café espresso o 1 café soluble</linea>
+		<linea>100 ml de leche o bebida vegetal</linea>
+		<linea>1 cucharada de azúcar</linea>
+		<linea>1 vaso de cubitos de hielo</linea>
+		<linea>A elegir: un plátano o banana, copos de avena o una bola de helado de vainilla, nata o chocolate.</linea>
 		
 	</ingrediente>
 	
