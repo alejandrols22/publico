@@ -3,7 +3,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="cancionALopez.css" />
+                <link rel="stylesheet" type="text/css" href="cafeALopez.css" />
             </head>
             <body>
                 <xsl:for-each select="cafe/ingrediente">
