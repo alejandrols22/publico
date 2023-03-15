@@ -4,7 +4,7 @@
 	
 	<titulo>Te Frio </titulo>
 	<precio>Todas las bebidas valen 4 euros</precio>
-	<ingrediente></ingrediente>
+	<ingrediente>
 		<linea>1 litro de agua</linea>
 		<linea>4 cucharadas o 4 bolsitas de té blanco</linea>
 		<linea>200 ml de zumo de pomelo</linea>
